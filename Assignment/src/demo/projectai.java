@@ -29,7 +29,7 @@ Thread.sleep(5000);
 WebElement btn= driver.findElement(By.className("login-btn"));
 btn.click();
 
-//driver.close();
+driver.close();
 
 
 
